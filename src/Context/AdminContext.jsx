@@ -4,7 +4,7 @@ import axios from "axios";
 export const AdminContext = createContext();
 
 const AdminContextProvider = (props) => {
-  const backend = "https://api-quickbites.vercel.app";
+  const backend = "https://quickbites-api.onrender.com";
 
   const [adminId, setAdminId] = useState(null);
   const [orderData, setOrderData] = useState([]);
